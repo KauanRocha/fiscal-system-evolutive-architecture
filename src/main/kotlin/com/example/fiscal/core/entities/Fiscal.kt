@@ -1,5 +1,6 @@
 package com.example.fiscal.core.entities
 
+
 data class Fiscal(
     val ref: String,
     val payments: List<Payment>,

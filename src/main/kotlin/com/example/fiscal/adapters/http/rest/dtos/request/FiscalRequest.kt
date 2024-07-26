@@ -5,7 +5,7 @@ import com.example.fiscal.core.entities.Product
 import jakarta.validation.constraints.NotEmpty
 import jakarta.validation.constraints.NotNull
 
-data class NFCERequest(
+data class FiscalRequest(
     @NotNull val ref: String,
     @NotNull val cnpj: String,
     @NotNull @NotEmpty  val products: List<Product>,
